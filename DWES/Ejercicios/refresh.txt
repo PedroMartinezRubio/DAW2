@@ -1,0 +1,2 @@
+header("refresh: 4 url=factorial.php")
+Refresca la pagina

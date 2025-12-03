@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Alice Smith",
+    "id": 101,
+    "skills": ["JavaScript", "CSS", "HTML"]
+  },
+  {
+    "name": "Bob Johnson",
+    "id": 102,
+    "skills": ["Python", "SQL", "Java"]
+  }
+]

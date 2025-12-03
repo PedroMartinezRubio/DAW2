@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    background-color: antiquewhite;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+#contenedor {
+    display: none;
+}

@@ -1,0 +1,14 @@
+1 - Controlar una lista de numeros, en la cual no puede repetirse ningun numero.
+    Una caracteristica de los conjuntos es que no pueden repetirse valores 
+
+2 - Comprobar si ya existe un elemento dentro del conjunto.
+    Un ejemplo seria comprobar si el usuario "Juan" existe en el conjunto gracias a la funcion has().
+
+3 - Buscar elementos dentro del conjunto  para eliminarlo con la funcion delete("juan")
+    Busca el elemento con ese valor y lo elimina directamente sin necesidad de recorrerlo de forma manual
+
+4 - Gestionar una lista de elementos como usuarios donde para agregar otro solamente necesitas usar la funcion add("nombre usuario")
+
+5 - Cuando trabajas con grandes volumenes de trabajo, es mas comodo usar conjuntos ya resulta en menos codigo
+    al usar las funciones de add(), delete(), has() etc. son sintaxis sencillas donde te ahorras escribir por ejemplo 
+    varios bucles para recorrer el conjunto de datos.
