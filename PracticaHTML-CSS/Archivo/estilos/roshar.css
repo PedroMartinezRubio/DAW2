@@ -1,0 +1,40 @@
+/*  Seccion Roshar   */
+.saga {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.roshar, .investidura {
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    background-color: white;
+}
+
+.roshar_img {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.saga .roshar_img img {
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#roshar_map {
+    width: 900px;
+    height: 500px;
+}

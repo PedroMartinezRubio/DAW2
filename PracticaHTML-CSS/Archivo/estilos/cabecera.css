@@ -1,0 +1,49 @@
+/*-- Estilo de cabecera --*/
+header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-bottom: 5rem;
+}
+
+#bar.nav-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-bar {
+    display: flex;
+    width: 48%;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 2px solid rgba(255,255,255,0.16);
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:black;
+    transition-duration: 0.4s;
+}
+
+.nav-bar a:hover {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: rgb(255, 255, 255);
+}
