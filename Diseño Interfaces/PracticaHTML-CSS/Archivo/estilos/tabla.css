@@ -1,0 +1,32 @@
+/*  Seccion 5 Estilo de la tabla  */
+
+table {
+    border-radius: 10px;
+}
+
+th, td {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.section-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section-table td {
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(249, 250, 198, 0.7);
+}
+
+.section-table td > i {
+    display: flex;
+    margin: 0 auto;
+}
+
+.section-table img {
+    border-radius: 10px;
+}

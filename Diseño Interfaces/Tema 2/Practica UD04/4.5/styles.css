@@ -1,0 +1,21 @@
+div{
+    color: red; 
+    font-family: Verdana;
+    opacity: 0.5;
+    /*El color y el font-famili estaban mal escritos
+    color: red: font: Verdana;
+    Para empezar deberian estar separados por punto y coma el color y el font-family.
+    Y el valor de la opacidad debe llevar un punto en vez de una coma.
+    font: Verdana; tambien estaba mal, ya que la propiedad correcta es font-family.
+    */
+}
+
+body{
+    border-width: 10px;
+    border-color: blue;
+    color:red;
+}
+
+h1{
+    border:inherit;
+}

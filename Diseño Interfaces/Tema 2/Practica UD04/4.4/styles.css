@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.columnas {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.columna {
+    border: 1px solid black;
+    padding: 10px;
+}

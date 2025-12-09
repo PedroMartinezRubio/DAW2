@@ -1,0 +1,55 @@
+$fondo-parrafo: #00ff00;
+$color-parrafo: #ffffff;
+/*
+Creo un mixin para centrar elementos y los aplico en el body y en los div
+*/
+@mixin centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*
+Estilos generales del body y sus elementos
+*/
+body{
+    //incluyo el mixin centrado
+    @include centrado;
+    /*
+    Estilos del h1, p, div y button
+    */
+    h1 {
+        color: red;
+        background-color: black;
+    }
+
+    p{
+        background-color: $fondo-parrafo;
+        color: $color-parrafo;
+    }
+
+    div{
+        //vuelvo a incluir el mixin centrado para centrar todos los divs
+        @include centrado;
+        background-color: #f2f2f2;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        width: 200px;
+    }
+    //le doy estilo a los botones
+    button{
+        background-color: rgb(98, 213, 255);
+        border: 1px solid rgb(119, 190, 238);
+        border-radius: 10px;
+        padding: 10px;
+        transition: ease-in-out 0.4s;
+    }
+    //estilos al pasar el raton por encima del boton
+    button:hover{
+        background-color: rgb(185, 225, 252);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+        cursor: pointer;
+    }
+}
