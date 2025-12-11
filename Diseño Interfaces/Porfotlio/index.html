@@ -5,51 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/54d8323fcc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <div>
-
-            </div>
-            <nav>
-                <ul>
-                    <li>Inicio</li>
-                    <li></li>
-                </ul>
-            </nav>
-        </div>
+    <header id="inicio">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#tools">Herramientas</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+            </ul>
+        </nav> 
     </header>
     <main>
         <section id="about">
-
+            <div class="container-img">
+                <img src="" alt="yo">
+            </div>
+            <div class="container-descrip">
+                <p>hola, soy Pedro</p>
+            </div>
         </section>
         <section id="tools">
             <div class="lenguajes">
-                <h3>Lneguajes de programación</h3>
+                <h3>Lenguajes de programación</h3>
+                <div class="java">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+                <div class="js">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="php">
+                    <i class="fa-brands fa-php"></i>
+                </div>
             </div>
             <div class="frameworks">
                 <h3>Frameworks</h3>
-
+                <div class="symp">
+                    <i class="fa-brands fa-symfony"></i>
+                </div>
+                <div class="btp">
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
             </div>
             <div clas="bd">
                 <h3>Bases de datos</h3>
-
+                <div class="maria">
+                    <i class="fa-solid fa-database"></i>
+                    <p>MariaDB</p>
+                </div>
+                <div class="sql">
+                    <i class="fa-solid fa-database"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="mongo">
+                    <i class="fa-solid fa-database"></i>
+                    <p>MongoDB</p>
+                </div>
             </div>
         </section>
         <section id="projects">
-
-        </section>
-        <section id="hobbies">
-            <div class="sports">
-
-            </div>
-            <div class="culture">
-
+            <div class="archivo">
+                <h3>Archivo de las tormentas</h3>
+                <p>Página sobre el archivo de las tormentas</p>
+                <p>Una saga del cosmere de Brandon Sanderson</p>
+                <a href="../PracticaHTML-CSS/Archivo/archivo.html">
+                    <img src="" alt="">
+                </a>
             </div>
         </section>
         <section id="contact">
-
+            <form action="" method="post">
+                <input type="text" placeholder="Nombre completo">
+                <br>
+                <input type="text" placeholder="Correo electronico">
+                <br>
+                <textarea name="text" id=""></textarea>
+                <br>
+                <input type="submit">
+            </form>
         </section>
     </main>
     <footer>
