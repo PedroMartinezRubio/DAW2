@@ -17,7 +17,6 @@
                 
                 if(empty($alumno)){
                     throw new Exception("Debe introducir el alumno al que quiere votar");
-
                 }else{
                     if($alumno == $alumnoLog){
                         throw new Exception("El alumno no puede votarse a si mismo.");
