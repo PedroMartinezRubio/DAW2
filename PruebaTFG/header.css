@@ -48,7 +48,8 @@ li {
     border-radius: 5px;
 }
 
-.nav-header li:hover {
+.nav-header li:hover a{
     background-color: rgba(0, 170, 0, 0.3);
     cursor: pointer;
+    color: white;
 }
