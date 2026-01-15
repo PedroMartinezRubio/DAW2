@@ -5,8 +5,7 @@ let parrafo = document.createElement("p");
 cuerpo.appendChild(parrafo);
 
 cuerpo.addEventListener("keydown", (evento)=>{
-    let texto = "";
-    parrafo.textContent += texto + evento.key;
+    parrafo.textContent += evento.key;
 });
 
 let boton = document.createElement("button");
