@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ficha Libro{% endblock %}
+
+{% block body %}
+{% if libro %}
+    <h1>Ficha del Libro</h1>
+    <ul>
+        <li><strong>{{libro.titulo|upper}}</strong></li>
+        <li><i>{{libro.autor}}</i></li>
+        <li>{{libro.paginas}} paginas</li>
+    </ul>
+{% else %}
+    <h1>Ficha del Libro</h1>
+    <h2>Libro no encontrado</h2>
+{% endif %}
+{% endblock %}
