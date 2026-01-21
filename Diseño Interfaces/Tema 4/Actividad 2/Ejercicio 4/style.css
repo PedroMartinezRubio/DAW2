@@ -1,0 +1,15 @@
+img{
+    animation-duration: 5s;
+    animation-name: mover;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover{
+    from {
+        transform: translateX(0px);
+    }  50% {
+        transform: translateX(500px);
+    } to {
+        transform: translateX(0px);
+    }
+}
