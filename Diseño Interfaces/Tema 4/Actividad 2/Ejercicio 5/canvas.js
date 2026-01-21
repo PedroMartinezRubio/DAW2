@@ -20,8 +20,8 @@ contexto.closePath();
 //dibujo de las hojas del arbol
 contexto.beginPath();
 contexto.moveTo(125, 250);
-contexto.lineTo(275, 100);
-contexto.lineTo(425, 250);
+contexto.lineTo(225, 120);
+contexto.lineTo(325, 250);
 contexto.closePath();
 contexto.fillStyle = "green";
 contexto.fill();
